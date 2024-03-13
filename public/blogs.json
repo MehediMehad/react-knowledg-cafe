@@ -4,7 +4,7 @@
       "cover": "https://i.ibb.co/N1LhCVK/5329292.jpg",
       "title": "The Phantom Castle",
       "author": "Alice Roberts",
-      "author_img": "https://i.ibb.co/N1LhCVK/5329292.jpg",
+      "author_img": "https://i.ibb.co/Hhnp1C2/react-1-1.png",
       "posted_date": "2024-03-13",
       "reading_time": 45,
       "hashtags": ["#fantasy", "#adventure", "#magic"]
@@ -14,7 +14,7 @@
       "cover": "https://i.ibb.co/N1LhCVK/5329292.jpg",
       "title": "Underwater Odyssey",
       "author": "Tom Johnson",
-      "author_img": "https://example.com/authors/tom_johnson.jpg",
+      "author_img": "https://i.ibb.co/Hhnp1C2/react-1-1.png",
       "posted_date": "2024-03-12",
       "reading_time": 50,
       "hashtags": ["#scifi", "#exploration", "#underwater"]
@@ -24,7 +24,7 @@
       "cover": "https://i.ibb.co/N1LhCVK/5329292.jpg",
       "title": "The Secret Forest",
       "author": "Emily White",
-      "author_img": "https://example.com/authors/emily_white.jpg",
+      "author_img": "https://i.ibb.co/Hhnp1C2/react-1-1.png",
       "posted_date": "2024-03-11",
       "reading_time": 35,
       "hashtags": ["#mystery", "#nature", "#adventure"]
@@ -34,7 +34,7 @@
       "cover": "https://i.ibb.co/N1LhCVK/5329292.jpg",
       "title": "Lost in Time",
       "author": "James Anderson",
-      "author_img": "https://example.com/authors/james_anderson.jpg",
+      "author_img": "https://i.ibb.co/Hhnp1C2/react-1-1.png",
       "posted_date": "2024-03-10",
       "reading_time": 40,
       "hashtags": ["#timetravel", "#historical", "#adventure"]
@@ -44,7 +44,7 @@
       "cover": "https://i.ibb.co/N1LhCVK/5329292.jpg",
       "title": "Stellar Journeys",
       "author": "Sophia Lee",
-      "author_img": "https://example.com/authors/sophia_lee.jpg",
+      "author_img": "https://i.ibb.co/Hhnp1C2/react-1-1.png",
       "posted_date": "2024-03-09",
       "reading_time": 55,
       "hashtags": ["#space", "#science", "#adventure"]
