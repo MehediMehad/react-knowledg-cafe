@@ -7,17 +7,27 @@ import Header from './compnets/Header/Header'
 
 
 function App() {
-  const [BooksMark, setBookMark] = useState([]);
+  const [booksMarks, setBookMark] = useState([]);
+  const [readingTime, setReadingTime] = useState(0); 
+
   const handleAddToBookMark = blog =>{
-    console.log('Booksmark adding soon');
+    const newBooksMarks = [...booksMarks, blog];
+    setBookMark(newBooksMarks)
+  }
+
+  const handleMarkAsRead =(id, time )=>{
+    const newReadingTime =  readingTime + time;
+    setReadingTime(newReadingTime)
+    const remainingBookmarks = booksMarks.filter(booksMark => booksMark.id !== id)
+    setBookMark(remainingBookmarks)
   }
 
   return (
     <div className='md:max-w-7xl mx-auto'>
       <Header></Header>
       <div className="md:flex p-5">
-        <Blogs handleAddToBookMark={handleAddToBookMark} ></Blogs>
-        <BooksMarks></BooksMarks>
+        <Blogs handleAddToBookMark={handleAddToBookMark} handleMarkAsRead={handleMarkAsRead} ></Blogs>
+        <BooksMarks booksMarks={booksMarks} readingTime={readingTime}></BooksMarks>
       </div>
     </div>
   )
